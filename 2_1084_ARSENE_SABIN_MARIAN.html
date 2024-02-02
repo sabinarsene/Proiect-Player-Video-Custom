@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sTube - Player Video</title>
+    <link rel="stylesheet" href="2_1084_ARSENE_SABIN_MARIAN.css">
+    
+</head>
+<body style="background-color: #800000;">
+    <div class="container"   style="background-color: #c83030;">
+        <div class="video-container">
+            <video id="myVideo" src="media/rio.mp4" controls>
+                <track src="media/subtitle.json" kind="subtitles" srclang="en" label="English" default>
+            </video>
+                
+
+
+            <canvas id="myCanvas"></canvas>
+            
+<select id="effectSelector">
+  <option value="none">None</option>
+  <option value="grayscale">Grayscale</option>
+  <option value="sepia">Sepia</option>
+  
+</select>
+
+           
+        </div >
+        <div class="playlist-container" style="background-color: #800000;" >
+            <h2>Playlist</h2>
+            <ul class="playlist" id="playlist" >
+                <!-- Elementele playlist vor fi adăugate aici din JavaScript -->
+            </ul>
+            <input type="file" id="fileInput" multiple onchange="handleFileInput(event)"  style="background-color: #800000;" >
+            <div class="controls" style="background-color: #800000;">
+                <button onclick="playPreviousVideo()">⏮️</button>
+                <button onclick="togglePlayPause()">⏯️</button>
+                <button onclick="playNextVideo()">⏭️</button>
+                <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="1" onchange="updateVolume()"  >
+            </div>
+        </div>
+    </div>
+    <script src="2_1084_ARSENE_SABIN_MARIAN.js"></script>
+</body>
+</html>

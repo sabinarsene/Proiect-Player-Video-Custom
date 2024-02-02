@@ -1,0 +1,32 @@
+[
+    {
+        "start": "00:00:05.000",
+        "end": "00:00:08.000",
+        "text": "Bine ai venit în minunata lume a păsărilor exotice!",
+        "style": {
+            "color": "white",
+            "background-color": "rgba(0, 0, 0, 0.7)",
+            "font-size": "18px"
+        }
+    },
+    {
+        "start": "00:00:10.000",
+        "end": "00:00:12.000",
+        "text": "Urmărește aventurile lui Blu și Jewel, două păsări în căutarea libertății.",
+        "style": {
+            "color": "yellow",
+            "background-color": "rgba(0, 0, 0, 0.7)",
+            "font-size": "20px"
+        }
+    },
+    {
+        "start": "00:00:15.000",
+        "end": "00:00:17.000",
+        "text": "Învață despre prietenie, aventură și iubire în filmul plin de culoare - Rio!",
+        "style": {
+            "color": "green",
+            "background-color": "rgba(0, 0, 0, 0.7)",
+            "font-size": "22px"
+        }
+    }
+]
